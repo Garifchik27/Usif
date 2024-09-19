@@ -1,0 +1,138 @@
+*{  
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+    }body{
+    background-color: rgb(200, 205, 206);
+}
+.container{
+    /* background-color: rgb(108, 207, 191); */
+    margin: 0px auto;  
+    max-width: 1200px;
+    
+   
+    
+}
+.logobox{
+    width: 100px;
+    /* padding: 30px 30px 30px; */
+}
+
+.logoImg{
+    width: 100%;
+    display: flex;
+    
+    
+}
+.header_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list_nav{
+    display: flex;
+    list-style-type: none;
+}
+.nav{
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+}
+.item_nav{
+    padding: 0 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.header{
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.158) 0%, rgba(55, 67, 238, 0.158) 50%, rgba(245, 117, 138, 0.158) 100%);
+    position: fixed;
+    width: 100%;
+}
+
+.authBox{
+    padding: 30px 30px 30px;
+    
+}
+
+.section1{
+    background-image: url("logo/banner_new.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    max-height: 900px;
+    padding-top: 300px;
+    box-sizing: border-box;
+
+
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+}
+.imgbmw1{
+    display: flex;
+    /* padding: 10px 10px 10px; */
+    width: 100%;
+
+}
+.section2{
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    
+}
+h2{
+    text-align: center;
+    width: 100%;
+    
+}
+.bmwM5{
+    width: 450px;
+    text-align: center;
+    background-color: rgb(173, 187, 187);
+    
+}
+.harakter{
+    width: 250px;
+    margin: 0 auto;
+    padding: 10px;
+       
+}
+.myButton {
+	box-shadow:inset 0px 6px 14px -7px #4b7780;
+	background:rgb(153, 238, 238);
+	background-color:#7f9ca7;
+	display:inline-block;
+	cursor:pointer;
+	color:#fffefe;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	text-decoration:none;
+    width: 100%;
+    padding: 5px 0px;
+}
+.myButton:hover {
+	background: rgb(127, 173, 173);
+	background-color:#99e1ee;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+p{
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
